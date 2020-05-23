@@ -17,4 +17,10 @@ public class FizzBuzzTest {
         assertEquals("Fizz", FizzBuzz.getReportedFigure(6));
         assertEquals("Fizz", FizzBuzz.getReportedFigure(12));
     }
+
+    @Test
+    void should_say_Buzz_when_reporting_given_number_is_not_multiple_by_5() {
+        assertEquals("Buzz", FizzBuzz.getReportedFigure(10));
+        assertEquals("Buzz", FizzBuzz.getReportedFigure(20));
+    }
 }
