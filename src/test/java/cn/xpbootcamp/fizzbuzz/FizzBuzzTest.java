@@ -48,7 +48,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void should_say_BuzzWhizz_when_reporting_given_number_is_multiple_by_3_5_and_7() {
+    void should_say_FizzBuzzWhizz_when_reporting_given_number_is_multiple_by_3_5_and_7() {
         assertEquals("FizzBuzzWhizz", FizzBuzz.getReportedFigure(210));
     }
 }
