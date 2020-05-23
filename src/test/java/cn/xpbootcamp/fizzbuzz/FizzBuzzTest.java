@@ -41,4 +41,9 @@ public class FizzBuzzTest {
         assertEquals("FizzWhizz", FizzBuzz.getReportedFigure(21));
         assertEquals("FizzWhizz", FizzBuzz.getReportedFigure(42));
     }
+
+    @Test
+    void should_say_BuzzWhizz_when_reporting_given_number_is_multiple_by_5_and_7() {
+        assertEquals("BuzzWhizz", FizzBuzz.getReportedFigure(140));
+    }
 }
