@@ -20,7 +20,7 @@ when are reporting:
 Given number is no multiple by 3, 5, 7： 1，4; then 1, 4
 Given number is multiple by 3: 6, 12; then Fizz
 Given number is multiple by 5: 10, 20; then Buzz
-Given number is multiple by 7: 14, 21; then Whizz
+Given number is multiple by 7: 14, 7; then Whizz
 Given number is multiple by 3 and 5: 60, 90; then FizzBuzz
 Given number is multiple by 3 and 7: 21, 42; then FizzWhizz
 Given number is multiple by 5 and 7: 140; then BuzzWhizz

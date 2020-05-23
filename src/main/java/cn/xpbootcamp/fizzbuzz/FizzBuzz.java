@@ -8,6 +8,7 @@ public class FizzBuzz {
     static {
         numberMapper.put(3, "Fizz");
         numberMapper.put(5, "Buzz");
+        numberMapper.put(7, "Whizz");
     }
 
     public static String getReportedFigure(int number) {
@@ -15,6 +16,8 @@ public class FizzBuzz {
             return numberMapper.get(3);
         if (number % 5 == 0)
             return numberMapper.get(5);
+        if (number % 7 == 0)
+            return numberMapper.get(7);
 
         return String.valueOf(number);
     }
