@@ -31,8 +31,14 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void should_say_Whizz_when_reporting_given_number_is_multiple_by_3_and_5() {
+    void should_say_FizzBuzz_when_reporting_given_number_is_multiple_by_3_and_5() {
         assertEquals("FizzBuzz", FizzBuzz.getReportedFigure(60));
         assertEquals("FizzBuzz", FizzBuzz.getReportedFigure(90));
+    }
+
+    @Test
+    void should_say_FizzWhizz_when_reporting_given_number_is_multiple_by_3_and_7() {
+        assertEquals("FizzWhizz", FizzBuzz.getReportedFigure(21));
+        assertEquals("FizzWhizz", FizzBuzz.getReportedFigure(42));
     }
 }

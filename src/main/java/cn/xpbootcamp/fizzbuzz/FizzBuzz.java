@@ -18,7 +18,7 @@ public class FizzBuzz {
         if (number % 5 == 0)
             result += numberMapper.get(5);
         if (number % 7 == 0)
-            result = numberMapper.get(7);
+            result += numberMapper.get(7);
 
         return result.isEmpty() ? String.valueOf(number) : result;
     }
