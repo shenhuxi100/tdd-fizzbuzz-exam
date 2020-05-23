@@ -12,13 +12,14 @@ public class FizzBuzz {
     }
 
     public static String getReportedFigure(int number) {
+        String result = "";
         if (number % 3 == 0)
-            return numberMapper.get(3);
+            result = numberMapper.get(3);
         if (number % 5 == 0)
-            return numberMapper.get(5);
+            result += numberMapper.get(5);
         if (number % 7 == 0)
-            return numberMapper.get(7);
+            result = numberMapper.get(7);
 
-        return String.valueOf(number);
+        return result.isEmpty() ? String.valueOf(number) : result;
     }
 }

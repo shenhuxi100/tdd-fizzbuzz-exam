@@ -29,4 +29,10 @@ public class FizzBuzzTest {
         assertEquals("Whizz", FizzBuzz.getReportedFigure(7));
         assertEquals("Whizz", FizzBuzz.getReportedFigure(14));
     }
+
+    @Test
+    void should_say_Whizz_when_reporting_given_number_is_multiple_by_3_and_5() {
+        assertEquals("FizzBuzz", FizzBuzz.getReportedFigure(60));
+        assertEquals("FizzBuzz", FizzBuzz.getReportedFigure(90));
+    }
 }
